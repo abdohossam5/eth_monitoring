@@ -1,0 +1,27 @@
+CREATE TABLE `eth_transactions` (
+  `txHash` varchar(100) NOT NULL,
+  `received_from` varchar(1000) DEFAULT NULL,
+  `value` decimal(40,20) DEFAULT NULL,
+  `price` mediumtext,
+  `received_date` datetime DEFAULT NULL,
+  `destinationAddress` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`txHash`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `failed_txs` (
+  `txHash` varchar(100) NOT NULL,
+  `received_from` varchar(1000) DEFAULT NULL,
+  `value` decimal(40,20) DEFAULT NULL,
+  `destinationAddress` varchar(1000) DEFAULT NULL,
+  `received_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`txHash`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `logs` (
+  `type` mediumtext,
+  `description` mediumtext,
+  `data` longtext
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+

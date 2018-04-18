@@ -1,0 +1,60 @@
+{
+  "wallets" : [
+  {
+      "type" : "eth", 
+      "addr" : "0x22b84d5ffea8b801c0422afe752377a64aa738c2"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0xc631058451c11a11d3799133c6a469c771ab87d8"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0x33de12b5cf336692c6b7cfd3aaf779425067f21c"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0xdf114d41c1c09297e80fdcdcb249d69f8aacabea"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0x390de26d772d2e2005c6d1d24afc902bae37a4bb"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0xf726dc178d1a4d9292a8d63f01e0fa0a1235e65c"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0x00d5b3c41b78ec87cf28a8b6a9fc5041e00025fd"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0xf6230e7e98d2bbebf96d14888020e9c3e8c27d69"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0xd24400ae8bfebb18ca49be86258a3c749cf46853"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0x996c3420bf8eaa38f1655b77906d28b53005967f"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0x564286362092d8e7936f0549571a803b203aaced"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0x6c4a18c48a335bb73b60446247fa77f8280ee993"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0xeb574cd5a407fefa5610fcde6aec13d983ba527c"
+  }, 
+  {
+      "type" : "eth", 
+      "addr" : "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be"
+  }
+]
+}
