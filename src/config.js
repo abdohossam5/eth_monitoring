@@ -14,7 +14,7 @@ export default {
   CHECKING_FREQUENCY_MS: 7200000,
   ETHERSCAN_URL: 'https://api.etherscan.io/api',
   ETHERSCAN_KEY: '',
-  CRYPTOCOMPARE: '',
+  CRYPTOCOMPARE: 'https://min-api.cryptocompare.com',
   BTC_PRICE_SOURCE: 'Bitstamp',
   ETH_PRICE_SOURCE: 'Coinbase',
 }
