@@ -1,0 +1,27 @@
+{
+  "apps": [
+    {
+      "name": "eth.monitoring",
+      "args": [],
+      "script": "dist/index.js",
+      "node_args": "",
+      "exec_mode": "fork",
+      "instances": 1,
+      "min_uptime": "5s",
+      "max_restarts": 15,
+      "max_memory_restart": "500M",
+      "watch": false,
+      "ignore_watch": [
+        "*.log",
+        "node_modules"
+      ],
+      "merge_logs": false,
+      "env_dev": {
+        "NODE_ENV": "dev"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
