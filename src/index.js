@@ -1,18 +1,19 @@
 import axios from 'axios';
 import log from './lib/log';
 import Db from './mysqlDB';
+import config from './config';
 
-const ETH_WALLETS = [''];
-const CHECKING_FREQUENCY_MS = 7200000;
-const ETHERSCAN_URL  = "https://api.etherscan.io/api";
-const ETHERSCAN_KEY = "";
-const CRYPTOCOMPARE = "https://min-api.cryptocompare.com";
-const BTC_PRICE_SOURCE = 'Bitstamp';
-const ETH_PRICE_SOURCE = 'Coinbase';
-
-const TXS_TABLE = 'eth_transactions';
-const LOG_TABLE = 'logs';
-const FAILED_TXS = 'failed_txs';
+const {
+  ETH_WALLETS = [''],
+  CHECKING_FREQUENCY_MS,
+  ETHERSCAN_URL, ETHERSCAN_KEY,
+  CRYPTOCOMPARE,
+  BTC_PRICE_SOURCE,
+  ETH_PRICE_SOURCE,
+  TXS_TABLE,
+  LOG_TABLE,
+  FAILED_TXS
+} = config;
 
 let IsCheckingRunning = false;
 
