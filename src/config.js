@@ -2,7 +2,7 @@ export default {
   mysql: {
     connectionLimit: 10,
     host: 'localhost',
-    user: 'test',
+    user: '',
     password: '',
     database : 'test',
     port: 3306

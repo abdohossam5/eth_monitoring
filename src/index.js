@@ -29,7 +29,7 @@ async function getNewEthContributions(walletAddr) {
       for(let i =0; i < ethTransactions.length; i++){
         let t = ethTransactions[i];
 
-        // check if transaction is an input to dacsee wallet
+        // check if transaction is an input to our wallet
         if(t.to.toLowerCase() !== walletAddr.toLowerCase()) continue;
 
 
